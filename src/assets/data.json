@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "653b661e8e132784bd922d11"
+  },
+  "name": "Harry Potter",
+  "author_name": "J. K. Rowling",
+  "genre": "fantasy"
+},
+{
+  "_id": {
+    "$oid": "653b6dc98e132784bd922d14"
+  },
+  "name": "A Time To Kill",
+  "author_name": "JOHN GRISHAM",
+  "genre": "suspense"
+},
+{
+  "_id": {
+    "$oid": "653b6dc98e132784bd922d15"
+  },
+  "name": "EAST OF EDEN",
+  "author_name": "JOHN STEINBECK",
+  "genre": "classic"
+},
+{
+  "_id": {
+    "$oid": "653b6dc98e132784bd922d16"
+  },
+  "name": "NUMBER THE STARS",
+  "author_name": "LOIS LOWRY",
+  "genre": "fantasy"
+}]
