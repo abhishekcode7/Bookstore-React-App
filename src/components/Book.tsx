@@ -2,14 +2,15 @@ import React, { FC } from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-export type Book = {
+export type typeBook = {
   name: string,
   genre: string,
   author_name: string,
+  isFeatured:Boolean
 }
 
 interface bookProps {
-  book: Book,
+  book: typeBook,
 }
 
 const Book:FC<bookProps> = ({ book }): JSX.Element => {

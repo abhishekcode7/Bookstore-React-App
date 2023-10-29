@@ -4,7 +4,8 @@
   },
   "name": "Harry Potter",
   "author_name": "J. K. Rowling",
-  "genre": "fantasy"
+  "genre": "fantasy",
+  "isFeatured":false
 },
 {
   "_id": {
@@ -12,7 +13,8 @@
   },
   "name": "A Time To Kill",
   "author_name": "JOHN GRISHAM",
-  "genre": "suspense"
+  "genre": "suspense",
+  "isFeatured":true
 },
 {
   "_id": {
@@ -20,7 +22,8 @@
   },
   "name": "EAST OF EDEN",
   "author_name": "JOHN STEINBECK",
-  "genre": "classic"
+  "genre": "classic",
+  "isFeatured":false
 },
 {
   "_id": {
@@ -28,5 +31,6 @@
   },
   "name": "NUMBER THE STARS",
   "author_name": "LOIS LOWRY",
-  "genre": "fantasy"
+  "genre": "fantasy",
+  "isFeatured":true
 }]

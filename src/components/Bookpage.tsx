@@ -1,21 +1,18 @@
-import React from 'react'
-import Book from './Book.tsx'
-import data from '../assets/data.json'
-
-
+import React from "react";
+import Book from "./Book.tsx";
+import data from "../assets/bookData.json";
 
 const Bookpage = () => {
   return (
     <>
-    <div>All Books</div>
-    <div className='d-flex'>
-    {data.map(book => (
-      <Book book={book as Book}/>
-    ))}
-    </div>
-    
+      <h3 className="text-center p-4">All Books</h3>
+      <div className="d-flex justify-content-around">
+        {data.map((book) => (
+          <Book book={book} />
+        ))}
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Bookpage
+export default Bookpage;

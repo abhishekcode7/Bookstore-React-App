@@ -1,0 +1,28 @@
+[{
+  "id":"1",
+  "author_name": "J. K. Rowling",
+  "books": [
+    "Harry Potter"
+  ]
+},
+{
+  "id":"2",
+  "author_name": "JOHN GRISHAM",
+  "books": [
+    "A Time To Kill"
+  ]
+},
+{
+  "id":"3",
+  "author_name": "JOHN STEINBECK",
+  "books": [
+    "EAST OF EDEN"
+  ]
+},
+{
+  "id":"4",
+  "author_name": "LOIS LOWRY",
+  "books": [
+    "NUMBER THE STARS"
+  ]
+}]
