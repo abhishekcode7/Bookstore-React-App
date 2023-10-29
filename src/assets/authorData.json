@@ -2,27 +2,39 @@
   "id":"1",
   "author_name": "J. K. Rowling",
   "books": [
-    "Harry Potter"
+    "Harry Potter and the Sorcerer's Stone",
+    "Harry Potter and the Chamber of Secrets",
+    "Harry Potter and the Prisoner of Azkaban",
+    "Harry Potter and the Goblet of Fire"
   ]
 },
 {
   "id":"2",
   "author_name": "JOHN GRISHAM",
   "books": [
-    "A Time To Kill"
+    "A Time To Kill",
+    "The Firm",
+    "The Pelican Brief",
+    "The Client"
   ]
 },
 {
   "id":"3",
   "author_name": "JOHN STEINBECK",
   "books": [
-    "EAST OF EDEN"
+    "EAST OF EDEN",
+    "The Grapes of Wrath",
+    "Cannery Row",
+    "The Pearl" 
   ]
 },
 {
   "id":"4",
   "author_name": "LOIS LOWRY",
   "books": [
-    "NUMBER THE STARS"
+    "NUMBER THE STARS",
+    "The Giver",
+    "Gathering Blue",
+    "Son"
   ]
 }]
