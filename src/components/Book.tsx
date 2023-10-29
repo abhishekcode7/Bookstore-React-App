@@ -6,7 +6,8 @@ export type typeBook = {
   name: string,
   genre: string,
   author_name: string,
-  isFeatured:Boolean
+  isFeatured:Boolean,
+  url:string
 }
 
 interface bookProps {
@@ -17,7 +18,7 @@ const Book:FC<bookProps> = ({ book }): JSX.Element => {
   return (
     <>
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="https://images.unsplash.com/photo-1601640365825-66327247a242?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vayUyMGNvdmVyfGVufDB8fDB8fHww" />
+      <Card.Img variant="top" src={book.url} />
       <Card.Body>
         <Card.Title>{book.name}</Card.Title>
         <Card.Text>
