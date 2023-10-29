@@ -1,42 +1,43 @@
 [
   {
-  "_id": {
-    "$oid": "653b661e8e132784bd922d11"
-  },
+  "id":"1",
   "name": "Harry Potter",
   "author_name": "J. K. Rowling",
   "genre": "fantasy",
   "url":"https://i.pinimg.com/736x/6f/a1/8f/6fa18f089942e5e82854252700e3f988.jpg",
   "isFeatured":false,
+  "price":2000,
   "description":"The seventh and final book in the Harry Potter series, 'Harry Potter and the Deathly Hallows' is a thrilling and emotionally charged tale of Harry Potter's epic battle against the dark wizard Lord Voldemort. The story follows Harry, Ron, and Hermione as they embark on a perilous quest to locate and destroy Horcruxes, objects containing fragments of Voldemort's soul that keep him immortal. As they journey through the wizarding world, they discover the legend of the Deathly Hallows, three powerful magical artifacts that may aid them in their quest: the Invisibility Cloak, the Resurrection Stone, and the Elder Wand."
 },
 {
-  "_id": {
-    "$oid": "653b6dc98e132784bd922d14"
-  },
+  "id":"2",
   "name": "A Time To Kill",
   "author_name": "JOHN GRISHAM",
   "genre": "suspense",
   "url":"https://i.pinimg.com/736x/6f/a1/8f/6fa18f089942e5e82854252700e3f988.jpg",
-  "isFeatured":true
+  "isFeatured":true,
+  "price":2000,
+  "description":"The seventh and final book in the Harry Potter series, 'Harry Potter and the Deathly Hallows' is a thrilling and emotionally charged tale of Harry Potter's epic battle against the dark wizard Lord Voldemort. The story follows Harry, Ron, and Hermione as they embark on a perilous quest to locate and destroy Horcruxes, objects containing fragments of Voldemort's soul that keep him immortal. As they journey through the wizarding world, they discover the legend of the Deathly Hallows, three powerful magical artifacts that may aid them in their quest: the Invisibility Cloak, the Resurrection Stone, and the Elder Wand."
 },
 {
-  "_id": {
-    "$oid": "653b6dc98e132784bd922d15"
-  },
+  "id":"3",
   "name": "EAST OF EDEN",
   "author_name": "JOHN STEINBECK",
   "genre": "classic",
   "url":"https://i.pinimg.com/736x/6f/a1/8f/6fa18f089942e5e82854252700e3f988.jpg",
-  "isFeatured":false
+  "price":2000,
+  "isFeatured":false,
+  "description":"The seventh and final book in the Harry Potter series, 'Harry Potter and the Deathly Hallows' is a thrilling and emotionally charged tale of Harry Potter's epic battle against the dark wizard Lord Voldemort. The story follows Harry, Ron, and Hermione as they embark on a perilous quest to locate and destroy Horcruxes, objects containing fragments of Voldemort's soul that keep him immortal. As they journey through the wizarding world, they discover the legend of the Deathly Hallows, three powerful magical artifacts that may aid them in their quest: the Invisibility Cloak, the Resurrection Stone, and the Elder Wand."
+
 },
 {
-  "_id": {
-    "$oid": "653b6dc98e132784bd922d16"
-  },
+  "id":"4",
   "name": "NUMBER THE STARS",
   "author_name": "LOIS LOWRY",
   "genre": "fantasy",
   "url":"https://i.pinimg.com/736x/6f/a1/8f/6fa18f089942e5e82854252700e3f988.jpg",
-  "isFeatured":true
+  "price":2000,
+  "isFeatured":true,
+  "description":"The seventh and final book in the Harry Potter series, 'Harry Potter and the Deathly Hallows' is a thrilling and emotionally charged tale of Harry Potter's epic battle against the dark wizard Lord Voldemort. The story follows Harry, Ron, and Hermione as they embark on a perilous quest to locate and destroy Horcruxes, objects containing fragments of Voldemort's soul that keep him immortal. As they journey through the wizarding world, they discover the legend of the Deathly Hallows, three powerful magical artifacts that may aid them in their quest: the Invisibility Cloak, the Resurrection Stone, and the Elder Wand."
+
 }]

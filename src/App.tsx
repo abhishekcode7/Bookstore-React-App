@@ -1,6 +1,4 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+
 import "./App.css";
 import Bookpage from "./components/Bookpage";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,9 +7,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import AuthorPage from "./components/AuthorPage";
 import AboutBook from "./components/AboutBook";
+import { CartProvider } from "./context/CartContext";
 function App() {
   return (
-    <>
+    <CartProvider>
       <NavigationBar />
       <BrowserRouter>
         <Routes>
@@ -22,7 +21,7 @@ function App() {
           <Route path="/about" element={<AboutBook />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </CartProvider>
   );
 }
 
